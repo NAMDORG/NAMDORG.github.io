@@ -1,0 +1,70 @@
+html
+{
+	scroll-behavior:smooth;
+}
+
+body 
+{
+	background-image: url(images/paperbackground.png);
+	background-attachment: fixed;
+	position: relative;
+	margin-top: 0;
+	margin-left: 0;
+	overflow: hidden;
+}
+
+h1  
+{
+	padding: 3% 0%;
+	font-family: 'Courier New', monospace;
+	text-align: center;
+}
+
+.page 
+{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+}
+
+.wrapper 
+{
+	height: 20vh;
+	width: 30vw;
+	min-width: 500px;
+	min-height: 200px;
+	
+	top: 40vh;
+	left: 35vw;
+	position: absolute;
+	
+	background-color: rgba(204, 204, 204, .5);
+}
+
+.button 
+{
+	background-color: rgb(117, 117, 117);
+	color: white;
+	position: absolute;
+	display: inline-block;
+	padding: 15px 32px;
+	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Courier New', monospace;
+	
+	cursor: pointer;
+}
+
+#contact 
+{
+	top: 100vh;
+	left: 0vw;
+}
+
+.top {}
