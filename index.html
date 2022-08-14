@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
 		<title>Jacob Grodman's Portfolio</title>
 		
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,500" rel='stylesheet'>
 		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
 	</head>
 	
 	<body>
-		<!-- Page is split into 3 sections, arranged vertically -->
-		
-		<!-- First section, Home -->
-		<div id="home" class="page">
-			<div class="wrapper">
-				<h1>Hi, I'm Jacob.</h1>
-				<h3>I make things.</h3>
-				<a href="#aboutme" class="button">Learn More</a>
+		<div class="wrapper">
+			<div id="home" class="page">
+				<div class="container">
+					<div id="siteHeader">
+							<h1 id="title">Hi, I'm Jacob.</h1>
+							<div class="bounds"><h3 id="label">How can I make your day better?</h3></div>
+							<div id="underline"></div>
+					</div>
+					<div id="links">
+						<div class="page-link"><h3>About Me</h3></div>
+						<div class="page-link"><h3>Projects</h3></div>
+						<div class="page-link"><h3>Contact Me</h3></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="aboutme" class="page">
+				<div class="container"></div>
+			</div>
+			
+			<div id="contact" class="page">
+				<div class="container"></div>
 			</div>
 		</div>
-		
-		<div id="aboutme" class="page">
-			<div class="wrapper">
-				<a href="#contact" class="button">Contact Me</a>
-			</div>
-		</div>
-		
-		<div id="contact" class="page">
-			<div class="wrapper"></div>
-		</div>
-		
-		<a href="#home" class="top"><p>Return to Top &#8593;</p></a>
 	</body>
 </html>
