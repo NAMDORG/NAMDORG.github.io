@@ -55,13 +55,15 @@ h3:hover:after {
 
 .container
 {
-	width: 95%;
-	height: 95%;
+	width: 95vw;
+	height: 95vh;
 	left: 2.5vw;
 	top: 2.5vh;
 	position: relative;
 	
 	background-color: rgba(0,0,0,.8);
+	outline: 2px solid white;
+	outline-offset: -10px;
 }
 
 #siteHeader
@@ -79,6 +81,8 @@ h3:hover:after {
 .bounds
 {
 	display: flex;
+	width: 100%;
+	outline: solid;
 }
 
 #home
@@ -92,9 +96,10 @@ h3:hover:after {
 	margin: auto;
 }
 
-#label
+.label
 {
-	margin: auto;
+	margin: 3px;
+	position: relative;
 }
 
 #underline
