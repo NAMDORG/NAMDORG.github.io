@@ -1,0 +1,142 @@
+body
+{
+	background-image: url('images/paperbackground.png');
+	background-attachment: fixed;
+	position: relative;
+	margin-top: 0;
+	margin-left: 0;
+	overflow: hidden;
+}
+
+*
+{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+h1
+{
+	font-weight: 500;
+}
+
+h3
+{
+	font-weight: 200;
+}
+
+/*h3:after {
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 1s ease 0s, left 1s ease 0s;
+  transition-delay: 1s;
+  width: 0%;
+}
+
+h3:hover:after {
+  width: 100%; 
+  left: 0; 
+}*/
+
+.wrapper
+{
+	box-sizing: border-box;
+}
+
+.page
+{
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+}
+
+.container
+{
+	width: 95vw;
+	height: 95vh;
+	left: 2.5vw;
+	top: 2.5vh;
+	position: relative;
+	
+	background-color: rgba(0,0,0,.8);
+	outline: 2px solid white;
+	outline-offset: -10px;
+}
+
+#siteHeader
+{
+	position:absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 45%;
+	transition: .5s;
+	transition-delay: 3s;
+}
+
+.bounds
+{
+	display: flex;
+	width: 100%;
+	outline: solid;
+}
+
+#home
+{
+	top: 0vh;
+	left: 0vw;
+}
+
+#title
+{
+	margin: auto;
+}
+
+.label
+{
+	margin: 3px;
+	position: relative;
+}
+
+#underline
+{
+	margin: auto;
+	width:0px;
+	height:3px;
+	background-color: white;
+	transition: 0.5s;
+	transition-delay: 1s;
+}
+
+#links
+{
+	position:absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 35%;
+}
+
+.page-link
+{
+	visibility: hidden;
+	transition: 5s;
+	transition-delay: 3s;
+}
+
+#aboutme
+{
+	top: 100vh;
+	left: 0vw;
+}
+
+#contact
+{
+	top: 200vh;
+	left: 0vw;
+}
